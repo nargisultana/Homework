@@ -13,12 +13,12 @@ public class AboutMe {
 	public char sex;
 	public boolean myParmanentResidence;
 
-//	This is constructor
+	// This is constructor
 //	Here constructor is Declared
 	public AboutMe() {
 		System.out.println("This is all about me; \n");
 	}
-//	This is method
+//	This is a method
 //	Here method is implemented
 
 	public void aboutMe() {
