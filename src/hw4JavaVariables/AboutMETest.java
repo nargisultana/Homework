@@ -7,7 +7,7 @@ public class AboutMETest {
 //	constructor is initialized here
 //	variables are initialized 
 	
-	aboutMe1. name =	" Nargis Sultana";
+	aboutMe1. name = " Nargis Sultana";
 	aboutMe1. age = 66;
 	aboutMe1. myMonthlySalary = 3899;
 	aboutMe1. myYearlySalary = 130827784;
@@ -17,8 +17,28 @@ public class AboutMETest {
 	aboutMe1. sex = 'F';
 	aboutMe1. myParmanentResidence = true;
 	
+	aboutMe1. aboutMe();
+	
+	System.out.println("\n----------------------------------------------\n");
+	AboutMe aboutMeAlex = new AboutMe ();
+	//Variables are initialized
+	aboutMeAlex. name = "Alex";
+	aboutMeAlex. age = 63;
+	aboutMeAlex. myMonthlySalary = 3500;
+	aboutMeAlex. myYearlySalary = 140778467;
+	aboutMeAlex. myWeight = 1.676234f;
+	aboutMeAlex. myHeight = 3.75366446643663;
+	aboutMeAlex. myApartmentRent = 8545533561300956654l;
+	aboutMeAlex. sex = 'M';
+	aboutMeAlex. myParmanentResidence = true;
+	
+	aboutMeAlex.aboutMe();
+	
+	
 			
 	
+	
+
 	
 	
 	
