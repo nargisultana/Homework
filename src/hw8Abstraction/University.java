@@ -10,5 +10,5 @@ public interface University {
 
 }
 
-// interface inside cannot create constructor
-// only we can declare by static final
+//  We can not create constructor inside interface.
+// Only we can declare by static final.

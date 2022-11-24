@@ -1,4 +1,4 @@
-package hw8Abstraction;
+package hw10Abstruction;
 
 public class RockefellerUniversity {
 

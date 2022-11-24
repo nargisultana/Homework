@@ -1,4 +1,4 @@
-package hw8Abstraction;
+package hw9Abstraction;
 
 public abstract class EngineeringSchool {
 	public abstract void medicalLab();

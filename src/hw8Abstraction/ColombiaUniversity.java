@@ -3,7 +3,7 @@ package hw8Abstraction;
 public class ColombiaUniversity {
 
 	public String Chemistry; // This is default Constructor.
-	public String Biology;
+	public String Biology; // Yes we can create a Constructor inside regular class.
 
 	// This is non abstract method.
 	// This method is implemented.
@@ -15,7 +15,6 @@ public class ColombiaUniversity {
 		System.out.println("This is from biology class");
 
 		// This is a regular class so we can not create an abstract method.
-		//
 
 	}
 }
