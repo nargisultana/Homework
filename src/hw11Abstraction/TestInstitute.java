@@ -6,7 +6,7 @@ public class TestInstitute {
 		System.out.println("\n------------------------------------------\n");
 		ColumbiaUniversity columbiaUniversity = new ColumbiaUniversity() ;
 		columbiaUniversity.biology();
-		ColumbiaUniversity.nargis(); //This is static method from ColumbiaUniversity called by the class name.
+		ColumbiaUniversity.sabrina(); //This is static method from ColumbiaUniversity called by the class name.
 		columbiaUniversity.lawInfo();
 		columbiaUniversity.anatomyLab();
 		columbiaUniversity.caring();
@@ -30,7 +30,7 @@ public class TestInstitute {
 		university.playGround();
 		university.teacher();
 		university.gymnasium();
-		University.library(); //Here static method of University Interface called by itself.
+		University.library(); // Here static method of University Interface called by itself.
 		university.commonRoom();
 		university.laboratory();
 		university.languageClub();
@@ -45,7 +45,7 @@ public class TestInstitute {
 		MedicalSchool medicalSchool =new ColumbiaUniversity();
 		medicalSchool.anatomyLab();
 		medicalSchool.bioChemistryLab();
-		MedicalSchool.nargis(); //Here static method of MedficalSchool class.
+		MedicalSchool.nargis(); // Here static method from MedficalSchool called by class name.
 		medicalSchool.hygiene();
 		medicalSchool.lawInfo();
 		medicalSchool.caring();
