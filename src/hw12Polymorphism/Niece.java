@@ -10,20 +10,20 @@ public class Niece extends Sister {
 	
 	 @Override
 	public int sister(int age1, int age2, int age3, String age4, int age5, int age6) {
-		int add = age1 + age2 + age3 + Integer.parseInt(age4) + age5 + age6;
+		int add = age1 + age2 + age3 + Integer.parseInt(age4) + age5 + age6+ 66;
 		System.out.println("Add all the age: " + add);
 		return add;
 	}
 	
 	@Override
 	public int sister (int age1,int age2, int age3, String age4, int age5) {
-		int substract = age1 / 2 - age2- age3- Integer.parseInt(age4) - age5*3;
+		int substract = age1 / 2 - age2- age3- Integer.parseInt(age4) - age5 - 5;
 		System.out.println("Substract all the age: " + substract);
 		return substract;
 	}
 	@Override
 	public int sister(int age1, int age2,String age3, int age4,int age5, int age6) {
-		int multiply =age1 *age2*Integer.parseInt(age3) *age4*age5*age6;
+		int multiply = age1 *age2*Integer.parseInt(age3) *age4*age5*age6 *4;
 		System.out.println("multiply all the page: " + multiply);
 		return multiply;
 	}
