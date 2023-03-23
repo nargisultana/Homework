@@ -1,12 +1,14 @@
 package hw9Abstraction;
 
 public abstract class NursingSchool {
+	public NursingSchool() {
+	}// Constructor can be created in the abstract class.
 
-	public abstract void hygine();
+	public void hygine() {
+		System.out.println("This is non abstract method from abstract class NursingSchool");
+	}
 	// This is abstract method.
 
-	public void caring() { 
+	public abstract void caring();
 
-		System.out.println("This is non abstract method");
-	}
 }

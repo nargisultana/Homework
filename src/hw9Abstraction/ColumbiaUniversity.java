@@ -1,8 +1,8 @@
 package hw9Abstraction;
 
-public class ColombiaUniversity {
+public class ColumbiaUniversity extends MedicalSchool {
 
-	public ColombiaUniversity () {
+	public ColumbiaUniversity () {
 		
 	}
 	
@@ -26,5 +26,11 @@ public class ColombiaUniversity {
 		 * Regular class can inherit one abstract class or one regular class.
 		 */
 	 
+	}
+
+	@Override
+	public void anatomylab() {
+		// TODO Auto-generated method stub
+		
 	}
 }

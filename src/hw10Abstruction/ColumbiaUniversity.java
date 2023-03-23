@@ -1,8 +1,8 @@
 package hw10Abstruction;
 
-public class ColombiaUniversity extends MedicalSchool implements University, VocationalSchool {
+public class ColumbiaUniversity extends MedicalSchool implements University, VocationalSchool {
 
-	public ColombiaUniversity () {
+	public ColumbiaUniversity () {
 		
 	}
 	
@@ -98,6 +98,12 @@ public class ColombiaUniversity extends MedicalSchool implements University, Voc
 
 	@Override
 	public void anatomylab() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void caring() {
 		// TODO Auto-generated method stub
 		
 	}
